@@ -1,0 +1,31 @@
+# Ignorar ambientes virtuais
+.venv/
+env/
+venv/
+
+# Ignorar arquivos de compilação do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignorar logs
+*.log
+
+# Ignorar arquivos de configurações locais do IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de credenciais (exemplo: e-mails/senhas)
+*.env
+
+# Ignorar resultados de execução
+*.out
+*.bak
+
+# Ignorar o arquivo yolov3.weights
+detc-rec/classificadores/yolov3.weights
